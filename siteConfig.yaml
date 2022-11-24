@@ -15,6 +15,8 @@ toc:
   enable: true
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
+  openapilocal: ./openapi/openapi.yaml
+  openapiremote: https://api.redocly.com/registry/bundle/api-portal/Sample%20API/1.0/openapi.yaml?branch=main
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap

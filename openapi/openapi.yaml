@@ -1,0 +1,39 @@
+openapi: 3.0.1
+info:
+  title: Sample API
+  description: Provides example for a sample API
+  version: '1.0'
+  contact:
+    email: sampleapidevelopers@cba.com.au
+    name: Sample API Development Team
+    url: https://github.cba/Products/api
+servers:
+  - url: https://github.cba/Products/api
+paths:
+  /party-reference/v1/customers-list:
+    description: This returns the list of customers.
+    get:
+      summary: Provides the reference data of Customers
+      description: Provides the reference data of the Customers
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerDataSet'
+components:
+  schemas:
+    CustomerModel:
+      type: object
+      properties:
+        Id:
+          type: string
+          example: '1'
+        Name:
+          type: string
+          example: ABC Corp Ltd
+    CustomerDataSet:
+      type: array
+      items:
+        $ref: '#/components/schemas/CustomerModel'
