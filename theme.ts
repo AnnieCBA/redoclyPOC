@@ -1,6 +1,12 @@
 import { lighten, darken, readableColor } from 'polished';
 
 export const theme = {
+  logo: {
+    height: `100px`,
+    margin: `10px 0`,
+    maxHeight: `100%`,
+    maxWidth: `120%`,
+  },
   // spacing: {
   //   unit: 5,
   //   sectionHorizontal: ({ spacing }) => spacing.unit * 8,
@@ -15,7 +21,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: 'white',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),

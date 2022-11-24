@@ -1,15 +1,15 @@
 meta:
-  title: Redocly Training
-  description: The best API documentation generator ever.
+  title: Commbank Developer Portal
+  description: 
   siteUrl: https://developer-portal-starter.redoc.ly
-  keywords: redocly developer portal, api portal starter, api reference docs
+  keywords: Commbank developer portal, api portal cba, api reference docs
   lang: en-US
 linkChecker:
   severity: warning
   options:
     CheckExternal: false
 logo:
-  image: ./images/logo.png
+  image: ./images/commbank.svg
   altText: Redocly Training
 toc:
   enable: true

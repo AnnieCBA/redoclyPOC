@@ -46,23 +46,7 @@ Let's change the Jumbotron text within the H1 and H2 header components.
 ```md
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
-```
-
-Next, let's change the buttons.
-There is one button enabled.
-Let's enable another button.
-
-```md
-  <Flex p={20} justifyContent="center">
-    <Button inversed large to="https://app.redoc.ly">
-      Redocly app
-    </Button>
-    <Button inversed transparent large to="developer-portal/index.md">
-      Get started
-    </Button>
-```
+  <H1>Commbank Developer Portal</H1>
 
 You'll notice the `inversed`, `transparent`, `large`, and `to` properties on some of those buttons.
 
