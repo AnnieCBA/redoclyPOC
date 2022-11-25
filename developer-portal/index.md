@@ -2,7 +2,7 @@
 title: Explore our APIs
 ---
 
-## Commbank APIs
+## Commbank API
 
 ### Engineer new banking experiences for your customers with our APIs.
 

@@ -4,6 +4,10 @@ training:
     expanded: true
     pages:
       - page: openapi/reference1.page.yaml/*
+  - group: Direct Debit
+    expanded: false
+    pages:
+      - page: openapi/reference4.page.yaml/*
 
 alternative:
   - page: developer-portal/sidebar-alternative.md
