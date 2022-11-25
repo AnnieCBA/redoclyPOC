@@ -4,12 +4,12 @@ The top nav and footers are defined in the `siteConfig.yaml` file.
 
 ## Change a top nav label
 
-Let's rename the link from training exercises to training program.
+Let's rename the link from API Registry to training program.
 
 ```yaml Before
 nav:
 
-  - label: Training exercises
+  - label: API Registry
     page: developer-portal/index.md
 
   - label: External docs
