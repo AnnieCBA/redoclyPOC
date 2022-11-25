@@ -4,18 +4,6 @@ training:
     expanded: true
     pages:
       - page: openapi/reference1.page.yaml/*
-  - group: Sample API
-    expanded: false
-    pages:
-      - page: openapi/reference2.page.yaml/*
-  - group: Petstore
-      expanded: false
-      pages:
-        - page: openapi/reference3.page.yaml/*
-  - group: Direct Debit
-      expanded: false
-      pages:
-        - page: openapi/reference4.page.yaml/*
 
 alternative:
   - page: developer-portal/sidebar-alternative.md
