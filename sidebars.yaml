@@ -1,6 +1,6 @@
 training:
   - page: developer-portal/index.md
-  - group: Local Specc reference
+  - group: Local Spec reference
     expanded: false
     pages:
       - page: openapi/reference1.page.yaml/*
