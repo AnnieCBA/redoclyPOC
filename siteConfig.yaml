@@ -14,9 +14,11 @@ logo:
 toc:
   enable: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
-  openapilocal: ./openapi/openapi.yaml
-  openapiremote: https://api.redocly.com/registry/bundle/api-portal/Sample%20API/1.0/openapi.yaml?branch=main
+  openapilocal: ./openapi/sampleapi.yaml
+  petstore: https://api.redocly.com/registry/bundle/api-portal/Petstore/v1/openapi.yaml?branch=main
+  sampleapi: https://api.redocly.com/registry/bundle/api-portal/Sample%20API/1.0/openapi.yaml?branch=main
+  openapi3.1.0: https://api.redocly.com/registry/bundle/api-portal/Openapi%203.1.0%20sample/v1.0/openapi.yaml?branch=main
+  openapi3.1.0directdebit: https://api.redocly.com/registry/bundle/api-portal/OpenAPI3.1.0D/v1.0/openapi.yaml?branch=main
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
@@ -29,17 +31,13 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
+  - label: API Registry
     page: developer-portal/index.md
-
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
 
   - search: true
 
 footer:
-  copyrightText: Copyright © Redocly 2019-2021. All right reserved.
+  copyrightText: © 2022 Commonwealth Bank of Australia ABN 48 123 123 124 AFSL and Australian credit licence 234945
   columns:
     - group: Legal
       items:
