@@ -1,0 +1,32 @@
+openapi: 3.1.0
+x-stoplight:
+  id: bvzg0hd3lfbz8
+info:
+  title: Sandbox API
+  version: '1.0'
+  summary: Sandbox API
+servers:
+  - url: 'http://localhost:3000/v1/sandbox'
+paths:
+  /simulate-webhook:
+    post:
+      summary: Simulate a webhook call
+      operationId: post-simulate-webhooks
+      responses:
+        '200':
+          description: OK
+      description: |-
+        *This endpoint only works in the sandbox environment*
+
+        Simulates a webhook call from the system for testing purposes.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                todo:
+                  type: string
+    parameters: []
+components:
+  schemas: {}
