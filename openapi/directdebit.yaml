@@ -3,7 +3,7 @@ x-stoplight:
   id: rfy1yh3kv7uus
 info:
   title: Direct Debits API
-  description: Direct Debits API
+  description: Direct Debits API version 2
   version: '2.0'
   contact:
     name: PaaS Team
@@ -14,7 +14,7 @@ servers:
 paths:
   /agreements:
     post:
-      summary: Create an Agreements
+      summary: Create an Agreement
       operationId: post-agreements
       responses:
         '200':
