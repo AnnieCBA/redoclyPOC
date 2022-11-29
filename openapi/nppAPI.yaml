@@ -1,0 +1,43 @@
+openapi: 3.1.0
+x-stoplight:
+  id: 5mdegq545m5k7
+info:
+  title: NPP API
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000/v1/npp'
+paths:
+  /payid/lookup:
+    get:
+      summary: Lookup PayID
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+      operationId: get-payid-resolve
+      description: Lookup the account details of a supplied PayId
+      parameters:
+        - schema:
+            type: string
+            enum:
+              - mobile
+              - email
+            example: mobile
+          in: query
+          name: type
+          description: Type of PayID
+        - schema:
+            type: string
+            example: '0402555555'
+          in: query
+          name: payId
+          description: The PayID
+          required: true
+      tags:
+        - PayId
+    parameters: []
+components:
+  schemas: {}
