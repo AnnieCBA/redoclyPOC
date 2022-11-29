@@ -1,6 +1,0 @@
-
-apiCatalog:
-  - title: CBA API
-    disableAutoSidebar: false
-    versions:
-      - link: https://api.redocly.com/registry/assets/api-portal/NPPGitHUB/v1.0?branch=main
