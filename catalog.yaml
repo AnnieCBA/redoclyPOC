@@ -1,0 +1,6 @@
+
+apiCatalog:
+  - title: CBA API
+    disableAutoSidebar: false
+    versions:
+      - link: https://api.redoc.ly/registry/assets/api-portal/Direct%20DebitGITHUB/V0.1?branch=develop.1.0
