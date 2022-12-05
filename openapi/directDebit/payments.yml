@@ -182,24 +182,6 @@ components:
             status:
               type: string
       title: Payment
-      examples:
-        - id: '12345'
-          amount: 200
-          reference: REF-2343
-          description: Short description
-          source:
-            type: internalAccount
-            accountId: string
-          destination:
-            type: bankAccount
-            bsb: '123456'
-            accountNumber: '12345678'
-            accountName: Tim Jones
-          status: settled
-          _links:
-            - href: 'https://apis.commbank.com.au/paas/payments/v1/payments/12345'
-              rel: self
-              method: GET
     createPaymentRequest:
       title: Create Payment Request
       x-stoplight:
