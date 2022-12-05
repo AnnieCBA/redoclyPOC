@@ -170,11 +170,15 @@ paths:
         required: true
         description: Agreement ID
     post:
-      summary: Create Payment for Agreement
+      summary: Create Payments for Agreement
       operationId: post-agreements-id-payments
       responses:
         '200':
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./payments.yml#/components/schemas/payment
       description: This endpoint allows you to debit an _ad-hoc_ agreement by creating a **payment**.
       requestBody:
         content:
