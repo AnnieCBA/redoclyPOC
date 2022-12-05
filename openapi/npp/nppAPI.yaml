@@ -3,7 +3,7 @@ x-stoplight:
   id: 5mdegq545m5k7
 info:
   title: NPP API
-  version: '1.0'
+  version: '2.0'
 servers:
   - url: 'http://localhost:3000/v1/npp'
 paths:
