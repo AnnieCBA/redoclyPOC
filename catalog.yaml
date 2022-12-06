@@ -3,4 +3,4 @@ apiCatalog:
   - title: ACME
     disableAutoSidebar: true
     versions:
-      - link: https://api.redoc.ly/registry/assets/api-portal/NPPGitHUB/v1.0?branch=develop
+      - link: https://api.redocly.com/registry/assets/api-portal/Direct%20DebitGITHUB/V0.1?branch=main
