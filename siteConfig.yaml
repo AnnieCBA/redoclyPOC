@@ -31,8 +31,17 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: API Registry
+  - label: View all APIs
     page: developer-portal/index.md
+
+  - label: Help & Support 
+    page: support/support.mdx
+
+  - label: Sign in 
+    page: signin/signin.mdx
+
+  - label: My Apps 
+    page: apps/apps.mdx
 
   - search: true
 
