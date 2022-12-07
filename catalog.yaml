@@ -1,6 +1,0 @@
-
-apiCatalog:
-  - title: ACME
-    disableAutoSidebar: true
-    versions:
-      - link: https://api.redoc.ly/registry/assets/api-portal/NPPGitHUB/v1.0?branch=develop
