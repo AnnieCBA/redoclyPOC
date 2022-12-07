@@ -18,7 +18,8 @@ oasDefinitions:
   petstore: https://api.redocly.com/registry/bundle/api-portal/Petstore/v1/openapi.yaml?branch=main
   sampleapi: https://api.redocly.com/registry/bundle/api-portal/Sample%20API/1.0/openapi.yaml?branch=main
   openapi3.1.0: https://api.redocly.com/registry/bundle/api-portal/Openapi%203.1.0%20sample/v1.0/openapi.yaml?branch=main
-  openapidirectdebit: https://api.redocly.com/registry/bundle/api-portal/Direct%20DebitGITHUB/V0.1/openapi.yaml?branch=main
+  openapidirectdebit: https://api.redocly.com/registry/assets/api-portal/Direct%20DebitGITHUB/V0.1?branch=main
+  openapidirectdebitcli: https://api.redocly.com/registry/assets/api-portal/DirectDebitCLI/v1.0?branch=main
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
